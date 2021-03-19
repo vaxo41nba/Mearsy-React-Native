@@ -1,0 +1,132 @@
+import { Dimensions, StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    justifyContent: 'center',
+  },
+  activeCategoriesContainer: {
+    flexDirection: 'row',
+    marginTop: '5%',
+  },
+  activeCategoriesButton: {
+    height: 32,
+    marginLeft: 12,
+    backgroundColor: '#F8F8F8',
+    borderColor: '#1890ff',
+    borderWidth: 1.8,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    justifyContent: 'center',
+  },
+  chosenActiveCategoriesButton: {
+    height: 32,
+    marginLeft: 12,
+    backgroundColor: 'lightgray',
+    borderColor: 'lightgray',
+    borderWidth: 1.8,
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    justifyContent: 'center',
+  },
+  activeCategoriesButtonText: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    color: '#1890ff',
+  },
+  cardsContainerWhite: {
+    backgroundColor: 'white',
+    width: '95%',
+    alignSelf: 'center',
+    marginTop: 10,
+    borderWidth: 1,
+    borderColor: 'white',
+    borderRadius: 5,
+  },
+  buttonContainer: {
+    backgroundColor: 'rgba(255,255,255,0.5)',
+    width: '100%',
+    position: 'absolute',
+    // height: '40%',
+  },
+  buttonText: {
+    color: 'white',
+  },
+  readNowButton: {
+    backgroundColor: '#1890ff',
+    borderColor: '#1890ff',
+    borderWidth: 1,
+    borderRadius: 5,
+    justifyContent: 'center',
+    width: 80,
+    height: 40,
+  },
+  cardsContainerDark: {
+    backgroundColor: '#555555',
+    width: '95%',
+    borderWidth: 1,
+    borderRadius: 6,
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+  headerTextLight: {
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 30,
+    paddingLeft: 10,
+    paddingTop: 10,
+  },
+  headerTextDark: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 30,
+    paddingLeft: 10,
+    paddingTop: 10,
+    fontFamily: 'FontAwesome',
+  },
+  slideshowContainer: {
+    height: Dimensions.get('screen').height / 3.5,
+    flex: 1,
+  },
+  noNewsFoundTextLight: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    fontSize: 35,
+    height: Dimensions.get('window').height / 2,
+    marginTop: '50%',
+  },
+  noNewsFoundTextDark: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    color: 'white',
+    marginTop: '50%',
+    fontSize: 35,
+    height: Dimensions.get('window').height / 2,
+  },
+  secondaryButton: {
+    backgroundColor: 'white',
+    borderColor: '#1890ff',
+    borderWidth: 1,
+    borderRadius: 5,
+    width: 150,
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'flex-end',
+    marginRight: '5%',
+  },
+
+  secondaryButtonText: {
+    color: '#1890ff',
+    fontWeight: 'bold',
+  },
+  overlayView: {
+    position: 'absolute',
+    alignSelf: 'center',
+    top: '40%',
+    width: '90%',
+  },
+});
+
+export default styles;

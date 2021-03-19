@@ -1,0 +1,282 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const styles = StyleSheet.create({
+  titleLight: {
+    fontSize: 34,
+    color: '#606060',
+    fontWeight: 'bold',
+    marginRight: 80,
+  },
+
+  titleDark: {
+    fontSize: 34,
+    color: '#E8E8E8',
+    fontWeight: 'bold',
+    marginRight: 80,
+  },
+  textContainer: {
+    left: 20,
+  },
+  optionsText: {
+    marginLeft: 10,
+    fontSize: 18,
+  },
+  userInfoContainer: {
+    flexDirection: 'row',
+    padding: 20,
+    marginTop: 30,
+  },
+  errorContainer: {
+    height: '100%',
+    justifyContent: 'center',
+  },
+  imageCirce: {
+    borderWidth: 1,
+    borderColor: 'white',
+    width: 75,
+    height: 75,
+    borderRadius: 75 / 2,
+    justifyContent: 'center',
+  },
+  avatar: {
+    width: 75,
+    height: 75,
+    borderWidth: 1,
+    borderRadius: 75 / 2,
+    borderColor: 'lightgray',
+  },
+  circleText: {
+    color: 'white',
+    fontWeight: 'bold',
+    alignSelf: 'center',
+    fontSize: 15,
+  },
+  usernameTextLight: {
+    color: '#606060',
+    fontWeight: 'bold',
+    fontSize: 18,
+    paddingTop: 5,
+    paddingBottom: 5,
+    marginRight: 15,
+  },
+  usernameTextDark: {
+    color: '#F8F8F8',
+    fontWeight: 'bold',
+    fontSize: 18,
+    paddingTop: 5,
+    paddingBottom: 5,
+    marginRight: 15,
+  },
+  additionalInfoContainer: {
+    marginHorizontal: 10,
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  additionalInfoTextDark: {
+    color: '#F8F8F8',
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  additionalInfoTextLight: {
+    color: '#606060',
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  articlesDark: {
+    color: '#F8F8F8',
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  articlesLight: {
+    color: '#606060',
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  additionalInfoNumber: {
+    color: '#1890ff',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  buttonsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  button: {
+    backgroundColor: '#1890ff',
+    borderColor: '#1890ff',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 7,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  logoutButton: {
+    backgroundColor: '#1890ff',
+    borderColor: '#1890ff',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 7,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 40,
+    marginLeft: 30,
+  },
+  unsubscribeButton: {
+    backgroundColor: 'white',
+    borderColor: '#1890ff',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  unsubscribeButtonText: {
+    color: '#1890ff',
+    fontWeight: 'bold',
+  },
+  blackListButton: {
+    backgroundColor: '#ff4d4f',
+    borderColor: '#ff4d4f',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  circle: {
+    borderWidth: 1,
+    borderColor: '#1890ff',
+    width: 75,
+    height: 75,
+    borderRadius: 75 / 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  footer: {
+    height: 130,
+    bottom: 1,
+    backgroundColor: 'lightgray',
+  },
+  footerTextHolder: {
+    alignSelf: 'center',
+  },
+  footerText: {
+    color: 'rgba(0,0,0,0.65)',
+    fontSize: 18,
+    marginTop: 15,
+  },
+  footerTerms: {
+    color: '#1890ff',
+    fontSize: 18,
+    marginTop: 8,
+    alignSelf: 'center',
+  },
+  optionsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginVertical: 10,
+    marginLeft: 8,
+  },
+  options: {
+    marginRight: 10,
+    fontSize: 16,
+    borderColor: '#1890ff',
+    borderWidth: 1.8,
+    borderRadius: 8,
+    backgroundColor: 'white',
+    color: '#1890ff',
+    paddingLeft: 15,
+    paddingRight: 3,
+    paddingTop: 5,
+    paddingBottom: 3,
+    fontWeight: 'bold',
+  },
+  optionsButton: {
+    borderWidth: 1,
+    borderColor: '#1890ff',
+    marginLeft: 10,
+    backgroundColor: 'white',
+    borderRadius: 5,
+    justifyContent: 'center',
+    height: 35,
+  },
+  profileLogOut: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 40,
+    width: '65%',
+  },
+  spinnerContainer: {
+    marginTop: 10,
+  },
+  usernameHolder: {
+    marginHorizontal: 10,
+    justifyContent: 'center',
+  },
+  userArticlesHolder: {
+    alignSelf: 'center',
+    marginTop: 15,
+  },
+  userArticlesTitleLight: {
+    color: 'black',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  userArticlesTitleDark: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  slideshowContainer: {
+    height: Dimensions.get('screen').height / 2.45,
+    flex: 1,
+  },
+  articlesContainerLight: {
+    backgroundColor: 'white',
+    width: '95%',
+    borderRadius: 6,
+    alignSelf: 'center',
+    borderColor: '#F8F8F8',
+    marginTop: 10,
+  },
+
+  articlesContainerDark: {
+    backgroundColor: '#555555',
+    width: '95%',
+    borderRadius: 6,
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+
+  headerContainer: {
+    alignSelf: 'flex-end',
+    marginRight: 10,
+    top: 20,
+  },
+  generalSettingsContainer: {
+    marginTop: '15%',
+  },
+  noArticlesTextLight: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    fontSize: 20,
+    height: Dimensions.get('screen').height / 2,
+    marginTop: '75%',
+  },
+  noArticlesTextDark: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    fontSize: 20,
+    height: 150,
+    marginTop: '25%',
+    color: 'white',
+  },
+});
+
+export default styles;

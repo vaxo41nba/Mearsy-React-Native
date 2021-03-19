@@ -1,0 +1,89 @@
+{
+  "name": "Mearsy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint --ext .js --ext .jsx .",
+    "lint-fix": "eslint --ext .js --ext .jsx . --fix"
+  },
+  "dependencies": {
+    "@ptomasroos/react-native-multi-slider": "^2.2.2",
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.8.1",
+    "@react-native-community/slider": "^3.0.3",
+    "install": "^0.13.0",
+    "libp2p-crypto": "^0.19.0",
+    "link": "^0.1.5",
+    "moment": "^2.29.1",
+    "npm": "^6.14.9",
+    "react": "16.13.1",
+    "react-native": "^0.63.3",
+    "react-native-animatable": "^1.3.3",
+    "react-native-awesome-alerts": "^1.4.2",
+    "react-native-bouncy-checkbox": "^1.0.8",
+    "react-native-custom-slide": "^1.0.1",
+    "react-native-document-picker": "^4.2.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-hash": "^1.3.1",
+    "react-native-htmlview": "^0.16.0",
+    "react-native-image-picker": "^3.1.1",
+    "react-native-modal-dropdown": "^0.7.0",
+    "react-native-render-html": "^5.0.1",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-snackbar": "^2.3.1",
+    "react-native-sound": "^0.11.0",
+    "react-native-sound-player": "^0.10.5",
+    "react-native-sqlite-storage": "^5.0.0",
+    "react-native-swift": "^1.2.3",
+    "react-native-track-player": "^1.2.3",
+    "react-native-use-sound": "^1.1.8",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-webview": "^11.0.2",
+    "react-navigation": "^4.4.3",
+    "react-navigation-stack": "^2.10.2",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.1.1",
+    "sound": "^2.6.1",
+    "uninstall": "0.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-native-dotenv": "^2.4.3",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
